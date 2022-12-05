@@ -9,8 +9,32 @@ header{
     background-size: 300px; 
     height: 80px;
 }
-div{
+
+.pattern{
     background-image: url("../img/logo.svg");
     background-repeat: no-repeat;
     height: 30px;
 }
+
+h1{
+    margin-bottom: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.data{
+    font-size:x-small;
+}
+
+.immagini{
+    margin-top: 10px;
+}
+#tim1{
+    width: 380px;
+}
+#tim2{
+    width: 325px;
+}
+
