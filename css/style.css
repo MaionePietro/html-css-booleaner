@@ -32,9 +32,12 @@ p{
     margin-top: 10px;
 }
 #tim1{
-    width: 380px;
+    width: 480px;
 }
 #tim2{
-    width: 325px;
+    width: 410px;
+}
+#info{
+    font-size: x-small;
 }
 
