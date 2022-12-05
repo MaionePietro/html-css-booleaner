@@ -1,48 +1,110 @@
+/* Settaggio pagina */
 body{
     margin-top: 0px;
 }
+main, header, footer{
+    padding-left: 80px;
+    padding-right: 80px;
+}
 
+
+/* Banner/logo */
 header{
     background-image: url("../img/pattern.png");
     background-color: rgb(67,150,255);
     background-repeat: repeat; 
-    background-size: 300px;
+    background-size: 320px;
 }
-
 .logo{
     width: 160px;
     padding-top: 40px;
 }
 
+
+/* Titolo/scrittore/data */
 h1{
     margin-bottom: 0;
 }
-
 p{
     margin: 0;
 }
-
 .data{
     font-size:x-small;
 }
 
+
+/* Immagini Tim/info */
 .immagini{
     margin-top: 10px;
 }
 #tim1{
-    width: 480px;
+    width: 380px;
 }
 #tim2{
-    width: 410px;
+    width: 325px;
 }
 #info{
     font-size: x-small;
 }
 
-.paragrafo{
-    margin-top: 20px;
+
+/* Paragrafo 1 */
+.paragrafoUno{
+    margin-top: 30px;
 }
 
+
+/* Tabbella */
+table{
+    margin-top: 30px;
+    border-collapse:collapse;
+    font-size:smaller;
+}
 ul{
     padding-left: 20px;
+}
+th{
+    text-align: left;
+    width: 300px;
+}
+#colorA{
+    background-color: rgb(27,159,225);
+}
+#colorB{
+    background-color: rgb(167,225,240);
+}
+
+
+/* Paragrafo 2 */
+.paragrafoDue{
+    margin-top: 30px;
+}
+
+
+/* Suggerimenti finali */
+footer{
+    margin-top: 30px;
+}
+strong{
+    color: rgb(122,122,122);
+}
+#interesseUno{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    width:200px;
+    height: 150px;  
+    margin-top: 10px;
+}
+#interesseDue{
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    width:200px;
+    height: 150px;
+    margin-top: 10px;
+}
+#interesseTex{
+    color: white;
+    font-size:larger;
+    padding-top: 9px;
+    padding-left: 9px;
 }
